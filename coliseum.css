@@ -1,0 +1,172 @@
+@import url('https://fonts.googleapis.com/css2?family=Advent+Pro&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
+
+body {
+    font-family: 'Advent Pro', sans-serif;
+    padding: 0;
+    margin: 0;
+}
+
+ul {
+    padding: 0;
+    margin: 0;
+}
+
+li {
+    list-style-type: none;
+}
+
+h2 {
+    text-transform: uppercase;
+    text-align: center;
+    padding-top: 30px;
+    font-size: 2em;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+/* ********** NAVBAR ********** */
+nav {
+    overflow: hidden;
+    background-color: #8860D0;
+    position: fixed;
+    width: 100%;
+    opacity: 0.75;
+}
+
+header li {
+    float: right;
+    font-size: 1.2em;
+}
+
+header li a {
+    text-decoration: none;
+    display: block;
+    text-align: center;
+    padding: 18px 16px;
+}
+
+#logo {
+    font-family: 'Dancing Script', cursive;
+    font-weight: bold;
+    float: left;
+    font-size: 1.5em;
+}
+
+/* ********** IMAGE PRINCIPALE ********** */
+#imagePrincipale {
+    padding-top: 3.5em;
+    background: url(images/fond.jpg) no-repeat fixed 50% 50%;
+    background-size: cover;
+    height: 799px;
+}
+
+h1 {
+    font-family: 'Dancing Script', cursive;
+    text-align: center;
+    font-size: 6em;
+    margin-top: 14.5%;
+    color: #FFFFFF;
+    text-shadow: #FFF 0px 0px 5px, #FFF 0px 0px 10px, #FFF 0px 0px 15px, #8860D0 0px 0px 20px, #8860D0 0px 0px 30px, #8860D0 0px 0px 40px, #8860D0 0px 0px 50px, #8860D0 0px 0px 75px;
+}
+
+#premierTrait {
+    height: 0.15em;
+    width: 20%;
+    margin: -3px auto;
+    background-color: #FFFFFF;
+    box-shadow: #FFF 0px 0px 5px, #FFF 0px 0px 10px, #FFF 0px 0px 15px, #8860D0 0px 0px 20px, #8860D0 0px 0px 30px, #8860D0 0px 0px 40px, #8860D0 0px 0px 50px, #8860D0 0px 0px 75px;
+}
+
+h3 {
+    text-align: center;
+    font-size: 3em;
+    color: #FFFFFF;
+    text-shadow: #FFF 0px 0px 5px, #FFF 0px 0px 10px, #FFF 0px 0px 15px, #8860D0 0px 0px 20px, #8860D0 0px 0px 30px, #8860D0 0px 0px 40px, #8860D0 0px 0px 50px, #8860D0 0px 0px 75px;
+}
+
+/* ********** PRÉSENTATION DES GUILDES ********** */
+#guildes {
+    background-color: #8860D0;
+    padding: 10px 0px 1px 0px;
+}
+
+#textIntro {
+    padding: 0px 25%;
+    text-align: center;
+    font-size: 16pt;
+}
+
+#pres {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 30px 10px;
+    margin: 6%;
+}
+
+.imagesGuildes h4 {
+    font-family: 'Dancing Script', cursive;
+    text-align: center;
+    font-size: 2.3em;
+    margin: 15px;
+    font-weight: 300;
+}
+
+.imagesGuildes img {
+    border-radius: 2.5%;
+    -webkit-box-shadow: 6px 5px 15px 5px black; 
+    box-shadow: 6px 5px 15px 5px black;
+}
+
+.imagesGuildes img:hover {
+    opacity: 0.5;
+    transform: scale(1.02);
+    transition: 0.4s ease-in-out;
+}
+
+/* ********** JOINING US ********** */
+#join {
+    background-color: black;
+    opacity:90%;
+    padding: 25px 0px 30px 0px;
+    text-align: center;
+    font-size: 16pt;
+    color:white;
+}
+
+/* ********** COPYRIGHT & ICONES ********** */
+footer {
+    background-color: black;
+    opacity:90%;
+    padding: 1px 0px 10px 0px;
+    text-align: center;
+    color:white;
+}
+
+#copyrightEtIcones {
+    display: flex;
+    padding: 0 10%;
+    color:white;
+}
+
+#copyright {
+    width: 50%;
+    text-align: left;
+    color: white;
+
+}
+
+#icones {
+    width: 50%;
+    text-align: right;
+    color: white;
+}
+
+i {
+    color:white;
+    margin-right:10px;
+}
