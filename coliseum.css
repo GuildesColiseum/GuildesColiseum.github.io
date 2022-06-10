@@ -190,6 +190,11 @@ section li a {
     margin-left:18.5%;
 }
 
+#gauche2 {
+    float:left;
+    margin-left:17.8%;
+}
+
 #maj {
     font-size: 10pt;
     text-align:center;
