@@ -7,6 +7,7 @@ body {
     margin: 0;
 }
 
+
 ul {
     padding: 0;
     margin: 0;
@@ -157,7 +158,6 @@ footer {
     width: 50%;
     text-align: left;
     color: white;
-
 }
 
 #icones {
@@ -169,4 +169,42 @@ footer {
 i {
     color:white;
     margin-right:10px;
+}
+
+/* ********** LISTES MEMBRES ********** */
+#membres {
+    background-color: #8860D0;
+    padding: 1px 0px 100px 0px;
+}
+
+section li a {
+    text-decoration: none;
+    text-align: center;
+    display:block;
+    padding: 18px 16px;
+    font-size: 1.2em;
+}
+
+#gauche {
+    float:left;
+    margin-left:18.5%;
+}
+
+#maj {
+    font-size: 10pt;
+    text-align:center;
+}
+
+#flex {
+    font-family: 'Dancing Script', cursive;
+    text-align: center;
+    font-size: 6em;
+    color: #000000;
+    text-shadow: #FFF 0px 0px 5px, #FFF 0px 0px 10px, #FFF 0px 0px 15px, #8860D0 0px 0px 20px, #8860D0 0px 0px 30px, #8860D0 0px 0px 40px, #8860D0 0px 0px 50px, #8860D0 0px 0px 75px;
+}
+
+input {
+    border-radius: 2.5%;
+    -webkit-box-shadow: 6px 5px 15px 5px black; 
+    box-shadow: 6px 5px 15px 5px black;
 }
